@@ -1,5 +1,6 @@
 package com.varun.dscsocialnetwork;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -21,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String name = e1.getEditableText().toString();
+                Intent i1 = new Intent(getApplicationContext(), NewsFeedActivity.class);
+                i1.putExtra("user_name",name);
+                startActivity(i1);
                 Toast.makeText(getApplicationContext(), name, Toast.LENGTH_SHORT).show();
             }
         });
