@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "798638572836",
+    "firebase_url": "https://dscsocialnetwork-2e49a.firebaseio.com",
+    "project_id": "dscsocialnetwork-2e49a",
+    "storage_bucket": "dscsocialnetwork-2e49a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798638572836:android:b4ad3a4fbd846f5f",
+        "android_client_info": {
+          "package_name": "com.varun.dscsocialnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798638572836-a7oilrn3tie9rbg0402boa8vgs5rjqm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpXeUrCQnsdY54mircECI9nWTuia9e5vw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
